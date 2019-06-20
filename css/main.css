@@ -1,9 +1,33 @@
-/* 
-blue: #0076B6;
-darkblue: #3B3F40;
-lightblue: #B1DADA;
-coral: #F76C5F;
-yellow: #E8BE35; 
-*/
-
 @import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+/* To use a color variable use the var() function
+        ex. background-color: var(--byui-blue);
+    Our colors are defined below.
+*/
+:root {
+    --byui-blue: #0076b6;
+    --darkblue: #3b3f40;
+    --lightblue: #b1dada;
+    --coral: #f76c5f;
+    --yellow: #e8be35;
+    font-family: "Oxygen", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid;
+    padding: 1em 2em;
+}

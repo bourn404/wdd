@@ -31,3 +31,7 @@ h6 {
     border: 1px solid;
     padding: 1em 2em;
 }
+
+.welcome {
+    display: flex; 
+  }

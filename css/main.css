@@ -32,6 +32,13 @@ h6 {
     padding: 1em 2em;
 }
 
+#intro {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
 .welcome {
-    display: flex; 
+    justify-content: space-around;
   }

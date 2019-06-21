@@ -41,3 +41,9 @@ h6 {
 .welcome {
     justify-content: space-around;
   }
+
+
+.titletext{
+    font-size: 64px;
+    font-weight: 800;
+}

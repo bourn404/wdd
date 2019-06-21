@@ -31,3 +31,18 @@ h6 {
     border: 1px solid;
     padding: 1em 2em;
 }
+
+.blurbs {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.design {
+
+}
+
+.dev {
+
+}

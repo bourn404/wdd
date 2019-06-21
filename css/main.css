@@ -32,6 +32,7 @@ h6 {
     padding: 1em 2em;
 }
 
+<<<<<<< HEAD
 .blurbs {
     display: flex;
     flex-direction: row;
@@ -45,4 +46,20 @@ h6 {
 
 .dev {
 
+=======
+#intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.welcome {
+    justify-content: space-around;
+  }
+
+
+.titletext{
+    font-size: 64px;
+    font-weight: 800;
+>>>>>>> e32e90c1bcf56aa7fd19e29ce5e432e4656ffcab
 }

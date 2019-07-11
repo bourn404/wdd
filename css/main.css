@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* To use a color variable use the var() function
@@ -32,34 +34,60 @@ h6 {
     padding: 1em 2em;
 }
 
-<<<<<<< HEAD
-.blurbs {
+.flex {
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
     flex-wrap: wrap;
 }
 
-.design {
-
-}
-
-.dev {
-
-=======
 #intro {
-    display: flex;
-    flex-wrap: wrap;
 }
 
+.WDDdiv {
+    padding: 3em 5em;
+    padding-bottom: 20vh;
+}
 
 .welcome {
     justify-content: space-around;
-  }
+}
 
-
-.titletext{
+.titletext {
     font-size: 64px;
     font-weight: 800;
->>>>>>> e32e90c1bcf56aa7fd19e29ce5e432e4656ffcab
+}
+
+nav,
+#intro,
+.WDDdiv {
+    background-color: var(--byui-blue);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+nav a {
+    text-decoration: none;
+}
+#designdev {
+    justify-content: center;
+}
+#designdev > div {
+    padding: 1em 2em;
+    background-color: gray;
+    margin: 0 10vw;
+    margin-top: -15vh;
+    width: 25vw;
+    min-height: 30vh;
+}
+
+.project {
+    padding: 1em;
+    margin: 0.5em 1em;
 }

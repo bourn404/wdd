@@ -1,34 +1,37 @@
 //-- What is WDD? --//
 $(document).ready(function() {
-    $("#rest-Web")
-        .delay(2000)
+    $("#wdd-web-rest")
+        .delay(3000)
         .animate(
             {
                 opacity: 0,
-                width: "-=100%"
+                width: 0
             },
-            3000
-        );
+            2000
+        )
+        .fadeOut(0);
 
-    $("#rest-Design")
-        .delay(2000)
+    $("#wdd-des-rest")
+        .delay(3000)
         .animate(
             {
                 opacity: 0,
-                width: "-=100%"
+                width: 0
             },
-            3000
-        );
+            2000
+        )
+        .fadeOut(0);
 
-    $("#rest-Development")
-        .delay(2000)
+    $("#wdd-dev-rest")
+        .delay(3000)
         .animate(
             {
                 opacity: 0,
-                width: "-=100%"
+                width: 0
             },
-            3000
-        );
+            2000
+        )
+        .fadeOut(0);
 });
 //-- (end of) What is WDD? --//
 var clicks = 0;

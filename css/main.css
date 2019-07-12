@@ -45,21 +45,31 @@ h6 {
 .WDDdiv {
     padding: 3em 5em;
     padding-bottom: 20vh;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .welcome {
     justify-content: space-around;
 }
 
+/* WDD - Question Title: */
+/* "What is Web Design and Development?" */
 .titletext {
-    font-size: 64px;
+    font-size: 3rem;
     font-weight: 800;
 }
+.wdd-qtitle{
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* (End of) WDD - Question Title. */
 
 nav,
 #intro,
 .WDDdiv {
-    /* background-color: var(--byui-blue); */
+    background-color: var(--byui-blue);
 }
 
 nav {

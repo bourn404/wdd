@@ -59,7 +59,45 @@ h6 {
 nav,
 #intro,
 .WDDdiv {
-    background-color: var(--byui-blue);
+    /* background-color: var(--byui-blue); */
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--darkblue);
+    color: var(--lightblue);
+    transform: translatey(100%);
+    transition: all 0.3s;
+}
+
+nav a {
+    color: var(--lightblue);
+}
+
+nav.open {
+    transform: translatey(0%);
+}
+
+#nav-toggle {
+    position: absolute;
+    right: 0rem;
+    padding: 0 0.4em;
+    padding-top: 0.2em;
+    top: -1.4em;
+    font-size: 3em;
+    background-color: var(--coral);
+    border-radius: 50%;
+    user-select: none;
+    transform: rotate(0deg);
+    transition: all 0.3s;
+    color: white;
+}
+
+nav.open #nav-toggle {
+    transform: rotate(180deg);
 }
 
 nav ul {
@@ -68,16 +106,18 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: block;
     padding: 0.5em 1em;
 }
 
 nav a {
     text-decoration: none;
 }
+
 #designdev {
     justify-content: center;
 }
+
 #designdev > div {
     padding: 1em 2em;
     background-color: gray;

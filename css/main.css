@@ -64,6 +64,21 @@ h6 {
     display: flex;
     flex-wrap: nowrap;
 }
+.hoursesDiv{
+    position: absolute;
+    height: 50px; width: 50px;
+    top: 0px; right: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hoursesImg{
+    position: fixed;
+    top: 80px; right: -310px;
+    /* Original Size: */
+    /* height: 1780px; width: 1532px;  */
+    /* Size at 20%: */
+    height: 356px; width: 307px;
+}
 /* (End of) WDD - Question Title. */
 
 nav,
